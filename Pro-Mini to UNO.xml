@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\cdelliott\My Development\KiCad\Pro-Mini to UNO\Pro-Mini to UNO.sch</source>
+    <date>23/08/2014 22:35:44</date>
+    <tool>Eeschema (2014-08-19 BZR 5083)-product</tool>
+  </design>
+  <components>
+    <comp ref="U101">
+      <value>ARDUINO_UNOr3</value>
+      <footprint>ipc-7251TH Non-Standard:ARDUINO_UNOr3U</footprint>
+      <fields>
+        <field name="Note">Use stacking headers or equivalent.</field>
+      </fields>
+      <libsource lib="Arduino" part="ARDUINO_UNOr3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53F17602</tstamp>
+    </comp>
+    <comp ref="U102">
+      <value>ARDUINO_Pro-Mini</value>
+      <footprint>ipc-7251TH Non-Standard:ARDUINO_Pro-MiniU</footprint>
+      <fields>
+        <field name="Note">Connect using 0.1" headers</field>
+      </fields>
+      <libsource lib="Arduino" part="ARDUINO_Pro-Mini"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53F17633</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>2pin</value>
+      <footprint>ipc-7251TH Standard:HDRV2W64P254_1X2_508X254X1016P</footprint>
+      <fields>
+        <field name="Note">Extra Analog Outputs</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53F2C440</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>DC 5.5x2.1mm</value>
+      <footprint>ipc-7251TH Connectors:CUI_PJ-202A</footprint>
+      <fields>
+        <field name="Manufacturer">CUI</field>
+        <field name="MFG#">PJ-202A</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Part#">CP-202A-ND</field>
+        <field name="Note">Optional Power Jack circuit</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="JACK-PWR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53F2C52E</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>DIODE</value>
+      <footprint>ipc-7251TH Standard:DIOAD1524W132L950D530A</footprint>
+      <fields>
+        <field name="Note">Optional Power Jack circuit</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53F3C6DA</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>10uF</value>
+      <footprint>ipc-7251TH Standard:CAPPR500W60D1000H2000A</footprint>
+      <fields>
+        <field name="Note">Optional Power Jack circuit</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53F3C707</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>0.1uF</value>
+      <fields>
+        <field name="Note">Optional Power Jack circuit</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53F3D620</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>10uF</value>
+      <footprint>ipc-7251TH Standard:CAPPR500W60D1000H2000A</footprint>
+      <fields>
+        <field name="Note">Optional 3.3VDC circuit</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53F3E274</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>0.1uF</value>
+      <fields>
+        <field name="Note">Optional 3.3VDC circuit</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53F3E305</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>100uF</value>
+      <fields>
+        <field name="Note">Optional 3.3VDC circuit</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53F3E493</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>0.1uF</value>
+      <fields>
+        <field name="Note">Optional 3.3VDC circuit</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53F3E4BC</tstamp>
+    </comp>
+    <comp ref="U103">
+      <value>TLV1117-33IDCYR</value>
+      <fields>
+        <field name="Manufacturer">Texas_Instruments</field>
+        <field name="MFG#">TLV1117-33IDCYR</field>
+        <field name="Vendor">DigiKey</field>
+        <field name="Part#">296-21113-1-ND</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="TLV1117-33IDCYR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53F8BDF4</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>1N4002</value>
+      <footprint>ipc-7251TH Standard:DIOAD1524W132L950D530A</footprint>
+      <fields>
+        <field name="Note">Optional Power Jack circuit</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>53F94291</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="NewUnsorted" part="CAP_NP">
+      <description>Capacitor, non polarized</description>
+      <footprints>
+        <fp>CAP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_NP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="CAP_P">
+      <description>Capacitor, non polarized</description>
+      <footprints>
+        <fp>CAPCP*</fp>
+        <fp>CAPMP*</fp>
+        <fp>CAPAE*</fp>
+        <fp>CAP_*</fp>
+        <fp>CAPPA*</fp>
+        <fp>CAPPR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="CONN_02">
+      <description>Generic connector symbol</description>
+      <footprints>
+        <fp>HDR*_1X2_*</fp>
+        <fp>3M_*</fp>
+        <fp>AGILENT_*</fp>
+        <fp>AIRBORNE_*</fp>
+        <fp>AMPHENOL_*</fp>
+        <fp>AVX_*</fp>
+        <fp>BERG_*</fp>
+        <fp>BLOCKMASTER_*</fp>
+        <fp>CUI-STACK_*</fp>
+        <fp>JOHNSON_*</fp>
+        <fp>FCI_*</fp>
+        <fp>FUJITSU_*</fp>
+        <fp>HIROSE_*</fp>
+        <fp>ITT_*</fp>
+        <fp>JALCO_*</fp>
+        <fp>JWT_*</fp>
+        <fp>JST_*</fp>
+        <fp>KEYSTONE_*</fp>
+        <fp>KYCON_*</fp>
+        <fp>LEMO_*</fp>
+        <fp>MILL-MAX_*</fp>
+        <fp>MOLEX_*</fp>
+        <fp>NEUTRIK_*</fp>
+        <fp>PHOENIX_*</fp>
+        <fp>PULSE_*</fp>
+        <fp>RIA_*</fp>
+        <fp>SAMTEC_*</fp>
+        <fp>SIEMENS_*</fp>
+        <fp>SPEEDTECH_*</fp>
+        <fp>STEWART_*</fp>
+        <fp>SULLINS_*</fp>
+        <fp>SWITCHCRAFT_*</fp>
+        <fp>TYCO_*</fp>
+        <fp>YAMAICHI_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_02</field>
+        <field name="Note">Connection</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="TLV1117-15IDCYR">
+      <aliases>
+        <alias>TLV1117-18IDCYR</alias>
+        <alias>TLV1117-25IDCYR</alias>
+        <alias>TLV1117-33IDCYR</alias>
+        <alias>TLV1117-50IDCYR</alias>
+      </aliases>
+      <description>TLV1117-15IDCYR, 800 mA Low Dropout Voltage Regulator, Fixed Output 1.5V, -40°C to 125°C, SOT-223</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tlv1117.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV1117-15IDCYR</field>
+        <field name="Manufacturer">Texas_Instruments</field>
+        <field name="MFG#">TLV1117_(copy_from_part/alias_value)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VOUT" type="power_out"/>
+        <pin num="3" name="VIN" type="input"/>
+        <pin num="4" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Arduino" part="ARDUINO_Pro-Mini">
+      <description>ARDUINO Pro Mini</description>
+      <docs>Arduino/Arduino-Pro-Mini-v13.pdf</docs>
+      <footprints>
+        <fp>ARDUINO_Pro_Mini*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ARDUINO_Pro-Mini</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TX/D1" type="BiDi"/>
+        <pin num="2" name="RX/D0" type="BiDi"/>
+        <pin num="3" name="~RESET" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Int0/D2" type="BiDi"/>
+        <pin num="6" name="Int1/D3*" type="BiDi"/>
+        <pin num="7" name="D4" type="BiDi"/>
+        <pin num="8" name="D5*" type="BiDi"/>
+        <pin num="9" name="D6*" type="BiDi"/>
+        <pin num="10" name="D7" type="BiDi"/>
+        <pin num="11" name="D8" type="BiDi"/>
+        <pin num="12" name="D9*" type="BiDi"/>
+        <pin num="13" name="~SS~/D10*" type="BiDi"/>
+        <pin num="14" name="MOSI/D11*" type="BiDi"/>
+        <pin num="15" name="MISO/D12" type="BiDi"/>
+        <pin num="16" name="SCK/D13" type="BiDi"/>
+        <pin num="17" name="A0" type="BiDi"/>
+        <pin num="18" name="A1" type="BiDi"/>
+        <pin num="19" name="A2" type="BiDi"/>
+        <pin num="20" name="A3" type="BiDi"/>
+        <pin num="21" name="VCC" type="power_in"/>
+        <pin num="22" name="~RESET" type="BiDi"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="RAW" type="power_in"/>
+        <pin num="A4" name="A4/SDA" type="BiDi"/>
+        <pin num="A5" name="A5/SCL" type="BiDi"/>
+        <pin num="A6" name="A6" type="BiDi"/>
+        <pin num="A7" name="A7" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Arduino" part="ARDUINO_UNOr3">
+      <description>Arduino Uno r3</description>
+      <docs>Arduino/Arduino_Uno_Rev3-schematic.pdf</docs>
+      <footprints>
+        <fp>ARDUINO_UNOr3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ARDUINO_UNOr3</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="ADC0" type="BiDi"/>
+        <pin num="A2" name="ADC1" type="BiDi"/>
+        <pin num="A3" name="ADC2" type="BiDi"/>
+        <pin num="A4" name="ADC3" type="BiDi"/>
+        <pin num="A5" name="ADC4/SDA" type="BiDi"/>
+        <pin num="A6" name="ADC5/SCL" type="BiDi"/>
+        <pin num="H1" name="D8" type="BiDi"/>
+        <pin num="H2" name="D9*" type="BiDi"/>
+        <pin num="H3" name="~SS~/D10*" type="BiDi"/>
+        <pin num="H4" name="MOSI/D11*" type="BiDi"/>
+        <pin num="H5" name="MISO/D12" type="BiDi"/>
+        <pin num="H6" name="SCK/LED/D13" type="BiDi"/>
+        <pin num="H7" name="GND" type="power_in"/>
+        <pin num="H8" name="AREF" type="passive"/>
+        <pin num="H9" name="ADC4/SDA" type="BiDi"/>
+        <pin num="H10" name="ADC5/SCL" type="BiDi"/>
+        <pin num="ISP1" name="MISO/D12" type="BiDi"/>
+        <pin num="ISP2" name="5V" type="power_in"/>
+        <pin num="ISP3" name="SCK/D13" type="BiDi"/>
+        <pin num="ISP4" name="MOSI/D11*" type="BiDi"/>
+        <pin num="ISP5" name="~RESET" type="BiDi"/>
+        <pin num="ISP6" name="GND" type="power_in"/>
+        <pin num="L1" name="RX/D0" type="BiDi"/>
+        <pin num="L2" name="TX/D1" type="BiDi"/>
+        <pin num="L3" name="Int0/D2" type="BiDi"/>
+        <pin num="L4" name="Int1/D3*" type="BiDi"/>
+        <pin num="L5" name="D4" type="BiDi"/>
+        <pin num="L6" name="D5*" type="BiDi"/>
+        <pin num="L7" name="D6*" type="BiDi"/>
+        <pin num="L8" name="D7" type="BiDi"/>
+        <pin num="P1" name="N/C" type="NotConnected"/>
+        <pin num="P2" name="5V" type="power_in"/>
+        <pin num="P3" name="~RESET" type="BiDi"/>
+        <pin num="P4" name="3V3" type="power_in"/>
+        <pin num="P5" name="5V" type="power_in"/>
+        <pin num="P6" name="GND" type="power_in"/>
+        <pin num="P7" name="GND" type="power_in"/>
+        <pin num="P8" name="V_IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="DIODE">
+      <description>Diode simple</description>
+      <footprints>
+        <fp>DIO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="JACK-PWR">
+      <description>Power jack w/ insert detect</description>
+      <footprints>
+        <fp>3M_*</fp>
+        <fp>AGILENT_*</fp>
+        <fp>AIRBORNE_*</fp>
+        <fp>AMPHENOL_*</fp>
+        <fp>AVX_*</fp>
+        <fp>BERG_*</fp>
+        <fp>BLOCKMASTER_*</fp>
+        <fp>CUI-STACK_*</fp>
+        <fp>JOHNSON_*</fp>
+        <fp>FCI_*</fp>
+        <fp>FUJITSU_*</fp>
+        <fp>HIROSE_*</fp>
+        <fp>ITT_*</fp>
+        <fp>JALCO_*</fp>
+        <fp>JWT_*</fp>
+        <fp>JST_*</fp>
+        <fp>KEYSTONE_*</fp>
+        <fp>KYCON_*</fp>
+        <fp>LEMO_*</fp>
+        <fp>MILL-MAX_*</fp>
+        <fp>MOLEX_*</fp>
+        <fp>NEUTRIK_*</fp>
+        <fp>PHOENIX_*</fp>
+        <fp>PULSE_*</fp>
+        <fp>RIA_*</fp>
+        <fp>SAMTEC_*</fp>
+        <fp>SIEMENS_*</fp>
+        <fp>SPEEDTECH_*</fp>
+        <fp>STEWART_*</fp>
+        <fp>SULLINS_*</fp>
+        <fp>SWITCHCRAFT_*</fp>
+        <fp>TYCO_*</fp>
+        <fp>YAMAICHI_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JACK-PWR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Tip" type="passive"/>
+        <pin num="2" name="Sleeve" type="passive"/>
+        <pin num="3" name="Sense" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="NewUnsorted">
+      <uri>C:\Users\Public\Public Development\KiCAD_share\MyLibrary\NewUnsorted.lib</uri>
+    </library>
+    <library logical="Arduino">
+      <uri>C:\Users\Public\Public Development\KiCAD_share\MyLibrary\Arduino.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/A7">
+      <node ref="U102" pin="A7"/>
+      <node ref="J102" pin="2"/>
+    </net>
+    <net code="2" name="/A6">
+      <node ref="J102" pin="1"/>
+      <node ref="U102" pin="A6"/>
+    </net>
+    <net code="3" name="/GND">
+      <node ref="C105" pin="2"/>
+      <node ref="U101" pin="H7"/>
+      <node ref="C106" pin="2"/>
+      <node ref="U101" pin="ISP6"/>
+      <node ref="U102" pin="23"/>
+      <node ref="U101" pin="P7"/>
+      <node ref="U103" pin="1"/>
+      <node ref="D101" pin="2"/>
+      <node ref="C101" pin="2"/>
+      <node ref="C104" pin="2"/>
+      <node ref="C102" pin="2"/>
+      <node ref="C103" pin="2"/>
+      <node ref="U102" pin="4"/>
+      <node ref="J101" pin="3"/>
+      <node ref="J101" pin="2"/>
+      <node ref="U101" pin="P6"/>
+    </net>
+    <net code="4" name="/Vin">
+      <node ref="J101" pin="1"/>
+      <node ref="C102" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="U102" pin="24"/>
+      <node ref="U101" pin="P8"/>
+      <node ref="D101" pin="1"/>
+    </net>
+    <net code="5" name="/5V0">
+      <node ref="C103" pin="1"/>
+      <node ref="U101" pin="ISP2"/>
+      <node ref="U101" pin="P5"/>
+      <node ref="U101" pin="P2"/>
+      <node ref="C104" pin="1"/>
+      <node ref="U102" pin="21"/>
+      <node ref="D102" pin="1"/>
+      <node ref="U103" pin="3"/>
+    </net>
+    <net code="6" name="/3V3">
+      <node ref="U101" pin="P4"/>
+      <node ref="C106" pin="1"/>
+      <node ref="C105" pin="1"/>
+      <node ref="U103" pin="4"/>
+      <node ref="U103" pin="2"/>
+      <node ref="D102" pin="2"/>
+    </net>
+    <net code="7" name="Net-(U101-PadH8)">
+      <node ref="U101" pin="H8"/>
+    </net>
+    <net code="8" name="/D8">
+      <node ref="U101" pin="H1"/>
+      <node ref="U102" pin="11"/>
+    </net>
+    <net code="9" name="/D7">
+      <node ref="U101" pin="L8"/>
+      <node ref="U102" pin="10"/>
+    </net>
+    <net code="10" name="/D6">
+      <node ref="U101" pin="L7"/>
+      <node ref="U102" pin="9"/>
+    </net>
+    <net code="11" name="/D5">
+      <node ref="U102" pin="8"/>
+      <node ref="U101" pin="L6"/>
+    </net>
+    <net code="12" name="/D4">
+      <node ref="U102" pin="7"/>
+      <node ref="U101" pin="L5"/>
+    </net>
+    <net code="13" name="/D3">
+      <node ref="U101" pin="L4"/>
+      <node ref="U102" pin="6"/>
+    </net>
+    <net code="14" name="/D0">
+      <node ref="U101" pin="L1"/>
+      <node ref="U102" pin="2"/>
+    </net>
+    <net code="15" name="/D2">
+      <node ref="U102" pin="5"/>
+      <node ref="U101" pin="L3"/>
+    </net>
+    <net code="16" name="/D1">
+      <node ref="U101" pin="L2"/>
+      <node ref="U102" pin="1"/>
+    </net>
+    <net code="17" name="Net-(U101-PadP1)">
+      <node ref="U101" pin="P1"/>
+    </net>
+    <net code="18" name="/D9">
+      <node ref="U102" pin="12"/>
+      <node ref="U101" pin="H2"/>
+    </net>
+    <net code="19" name="/D12">
+      <node ref="U101" pin="H5"/>
+      <node ref="U101" pin="ISP1"/>
+      <node ref="U102" pin="15"/>
+    </net>
+    <net code="20" name="/A5">
+      <node ref="U101" pin="H10"/>
+      <node ref="U101" pin="A6"/>
+      <node ref="U102" pin="A5"/>
+    </net>
+    <net code="21" name="/A4">
+      <node ref="U102" pin="A4"/>
+      <node ref="U101" pin="A5"/>
+      <node ref="U101" pin="H9"/>
+    </net>
+    <net code="22" name="/D13">
+      <node ref="U101" pin="ISP3"/>
+      <node ref="U102" pin="16"/>
+      <node ref="U101" pin="H6"/>
+    </net>
+    <net code="23" name="/D11">
+      <node ref="U101" pin="H4"/>
+      <node ref="U102" pin="14"/>
+      <node ref="U101" pin="ISP4"/>
+    </net>
+    <net code="24" name="/~RST">
+      <node ref="U102" pin="3"/>
+      <node ref="U101" pin="P3"/>
+      <node ref="U102" pin="22"/>
+      <node ref="U101" pin="ISP5"/>
+    </net>
+    <net code="25" name="/A3">
+      <node ref="U102" pin="20"/>
+      <node ref="U101" pin="A4"/>
+    </net>
+    <net code="26" name="/A2">
+      <node ref="U101" pin="A3"/>
+      <node ref="U102" pin="19"/>
+    </net>
+    <net code="27" name="/A1">
+      <node ref="U101" pin="A2"/>
+      <node ref="U102" pin="18"/>
+    </net>
+    <net code="28" name="/A0">
+      <node ref="U101" pin="A1"/>
+      <node ref="U102" pin="17"/>
+    </net>
+    <net code="29" name="/D10">
+      <node ref="U101" pin="H3"/>
+      <node ref="U102" pin="13"/>
+    </net>
+  </nets>
+</export>

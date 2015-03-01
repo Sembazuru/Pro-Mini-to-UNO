@@ -1,0 +1,14 @@
+Reference, Value, Footprint, Datasheet, Note, Manufacturer, MFG#, Vendor, Part#
+U101,ARDUINO_UNOr3,ipc-7251TH Non-Standard:ARDUINO_UNOr3U,,Use stacking headers or equivalent.,,,,
+U102,ARDUINO_Pro-Mini,ipc-7251TH Non-Standard:ARDUINO_Pro-MiniU,,Connect using 0.1" headers,,,,
+J102,2pin,ipc-7251TH Standard:HDRV2W64P254_1X2_508X254X1016P,,Extra Analog Outputs,,,,
+J101,DC 5.5x2.1mm,ipc-7251TH Connectors:CUI_PJ-202A,,Optional Power Jack circuit,CUI,PJ-202A,DigiKey,CP-202A-ND
+D101,DIODE,ipc-7251TH Standard:DIOAD1524W132L950D530A,,Optional Power Jack circuit,,,,
+C101,10uF,ipc-7251TH Standard:CAPPR500W60D1000H2000A,,Optional Power Jack circuit,,,,
+C102,0.1uF,,,Optional Power Jack circuit,,,,
+C103,10uF,ipc-7251TH Standard:CAPPR500W60D1000H2000A,,Optional 3.3VDC circuit,,,,
+C104,0.1uF,,,Optional 3.3VDC circuit,,,,
+C105,100uF,,,Optional 3.3VDC circuit,,,,
+C106,0.1uF,,,Optional 3.3VDC circuit,,,,
+U103,TLV1117-33IDCYR,,,,Texas_Instruments,TLV1117-33IDCYR,DigiKey,296-21113-1-ND
+D102,1N4002,ipc-7251TH Standard:DIOAD1524W132L950D530A,,Optional Power Jack circuit,,,,

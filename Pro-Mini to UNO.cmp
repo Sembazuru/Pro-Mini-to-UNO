@@ -1,0 +1,94 @@
+Cmp-Mod V01 Created by Cvpcb (2014-08-19 BZR 5083)-product   date = 23/08/2014 22:38:01
+
+BeginCmp
+TimeStamp = /53F3C707;
+Reference = C101;
+ValeurCmp = 10uF;
+IdModule  = ipc-7251TH Standard:CAPPR500W60D1000H2000A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F3D620;
+Reference = C102;
+ValeurCmp = 0.1uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F3E274;
+Reference = C103;
+ValeurCmp = 10uF;
+IdModule  = ipc-7251TH Standard:CAPPR500W60D1000H2000A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F3E305;
+Reference = C104;
+ValeurCmp = 0.1uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F3E493;
+Reference = C105;
+ValeurCmp = 100uF;
+IdModule  = ipc-7251TH Standard:CAPPR500W60D1000H2000A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F3E4BC;
+Reference = C106;
+ValeurCmp = 0.1uF;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F3C6DA;
+Reference = D101;
+ValeurCmp = DIODE;
+IdModule  = ipc-7251TH Standard:DIOAD1524W132L950D530A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F94291;
+Reference = D102;
+ValeurCmp = 1N4002;
+IdModule  = ipc-7251TH Standard:DIOAD1524W132L950D530A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F2C52E;
+Reference = J101;
+ValeurCmp = DC 5.5x2.1mm;
+IdModule  = ipc-7251TH Connectors:CUI_PJ-202A;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F2C440;
+Reference = J102;
+ValeurCmp = 2pin;
+IdModule  = ipc-7251TH Standard:HDRV2W64P254_1X2_508X254X1016P;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F17602;
+Reference = U101;
+ValeurCmp = ARDUINO_UNOr3;
+IdModule  = ipc-7251TH Non-Standard:ARDUINO_UNOr3U;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F17633;
+Reference = U102;
+ValeurCmp = ARDUINO_Pro-Mini;
+IdModule  = ipc-7251TH Non-Standard:ARDUINO_Pro-MiniU;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F8BDF4;
+Reference = U103;
+ValeurCmp = TLV1117-33IDCYR;
+IdModule  = ipc-7351SMT Transistor:SOT230P700X180-4M;
+EndCmp
+
+EndListe
