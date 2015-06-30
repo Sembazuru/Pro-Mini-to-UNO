@@ -1,4 +1,4 @@
-update=2015-06-23 07:49:54
+update=2015-06-30 02:02:06
 version=1
 last_client=kicad
 [cvpcb]
@@ -26,6 +26,8 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../../../../Public/Public Development/KiCAD_share/MyLibrary
@@ -62,8 +64,6 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=C:/Users/Public/Public Development/KiCAD_share/template/default.kicad_wks
