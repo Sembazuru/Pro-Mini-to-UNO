@@ -1,4 +1,4 @@
-update=2015-06-30 02:02:06
+update=2015-07-20 21:29:17
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,31 +6,21 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[pcbnew]
-version=1
-PageLayoutDescrFile=C:/Users/Public/Public Development/KiCAD_share/template/default.kicad_wks
-LastNetListRead=
-UseCmpFile=1
-PadDrill=0.6
-PadDrillOvalY=0.6
-PadSizeH=1.5
-PadSizeV=1.5
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.09999999999999999
-ModuleOutlineThickness=0.15
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=D:/Libraries/PublicDevelopment/KiCAD_share/MyTemplate/default.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
-LibDir=../../../../Public/Public Development/KiCAD_share/MyLibrary
+LibDir=../../../PublicDevelopment/KiCAD_share/MyLibrary
 [eeschema/libraries]
 LibName1=NewUnsorted
 LibName2=Arduino
@@ -64,13 +54,22 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[schematic_editor]
+[pcbnew]
 version=1
-PageLayoutDescrFile=C:/Users/Public/Public Development/KiCAD_share/template/default.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+PageLayoutDescrFile=D:/Libraries/PublicDevelopment/KiCAD_share/MyTemplate/default.kicad_wks
+LastNetListRead=
+PadDrill=0.6
+PadDrillOvalY=0.6
+PadSizeH=1.5
+PadSizeV=1.5
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0.0508
+SolderMaskMinWidth=0.07619999999999999
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.09999999999999999
+ModuleOutlineThickness=0.15

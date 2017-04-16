@@ -1,0 +1,17 @@
+Reference, Value, Footprint, Datasheet, Note, Manufacturer, MFG#, Vendor, Part#, Detail, URL
+U2,ARDUINO_UNOr3,ipc-7251TH Non-Standard:ARDUINO_UNOr3U,,Use stacking headers or equivalent.,,,,,,
+U1,ARDUINO_Pro-Mini,ipc-7251TH Non-Standard:ARDUINO_Pro-MiniU,,Connect using 0.1" headers,,,,,,
+J3,2pin,ipc-7251TH Standard:HDRV2W64P254_1X2_508X254X1016P,,Extra Analog Inputs,,,,,,
+J1,DC 5.5x2.1mm,ipc-7251TH Connectors:CUI_PJ-202A,,Optional Power Jack circuit,CUI,PJ-202A,DigiKey,CP-202A-ND,,
+D1,1N4002,DIOM4836X250M,http://www.diodes.com/datasheets/ds16003.pdf,Optional Power Jack circuit,Diodes Incorporated,S1BB-13-F,DigiKey,S1BB-FDICT-ND,,
+C4,10uF,,,Optional Power Jack circuit,,,,,,
+C3,0.1uF,,,Optional Power Jack circuit,,,,,,
+F1,RUSBF250,,,,,,,,PTC 2.5A,https://octopart.com/search?view=list&q=RUSBF250
+J2,JST 2pin,,,Battery Connector,,,,,,
+C1,33uF,,,Optional Regulator,,,,,,
+JP2,JMP12_3,,
+JP1,JMP1_23,,
+C2,33uF,,,Optional Regulator,,,,,,
+PS1,Pololu_S7V8F3,,,,,,,,3.3V Step-Up/Step-Down,
+PS2,Pololu_S7V8F5,,,,,,,,5.0V Step-Up/Step-Down,
+JP3,JMP12,,
